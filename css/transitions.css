@@ -1,0 +1,100 @@
+*{ 
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: rgba(130, 16, 16, 0.897);
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-start;
+    background-color: rgba(130, 16, 113, 0.897);
+}
+
+ h1 {
+    
+    width: 200px;
+    font-size: 4em;
+    padding: 20px 30px;
+    background-color: #fff;
+    color: rgb(2, 2, 2);
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 20px 0;
+    position:relative;
+    left: 0;
+    
+}
+
+    h1:hover {
+    background-color: rgb(0, 0, 0);
+    transition-property: all;
+    transition-duration:2s;
+    transition-delay: 0;
+    left: 90%;
+    
+}
+h1:first-child{
+    
+    color: blueviolet;
+    transition-timing-function:linear; 
+}
+h1:nth-child(2){
+    
+    color: blueviolet;
+    transition-timing-function:ease;
+    
+}
+h1:nth-child(3){
+     
+    color: blueviolet;
+    transition-timing-function:esae-in;
+    
+}
+h1:nth-child(4){
+     
+    color: blueviolet;
+    transition-timing-function:ease-out;
+}
+h1:nth-child(5){
+     
+    color: blueviolet;
+    transition-timing-function:ease-in-out;
+}
+h1:nth-child(6){
+     
+    color: blueviolet;
+    transition-timing-function:step-start;
+}
+h1:nth-child(7){
+     
+    color: blueviolet;
+    transition-timing-function:step-end;
+}
+h1:nth-child(8){
+    
+    color: blueviolet;
+    transition-timing-function:step-in;
+}
+h1:nth-child(9){
+    
+    color: blueviolet;
+    transition-timing-function:initial;
+}
+h1:nth-child(10){
+     
+    color: blueviolet;
+    transition-timing-function:inherit;
+}
+
+

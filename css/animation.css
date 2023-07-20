@@ -1,0 +1,80 @@
+*{
+    color: aliceblue;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    padding:20px;
+    margin-left:30px;
+    animation-name: animacion2;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:1;
+    animation-direction: reverse;
+    animation-fill-mode:both;
+    animation-delay: 5s;
+}
+
+
+h1{
+    width: 100px;
+    text-align: center;
+    background-color: rgb(58, 31, 83);
+    margin: 20px 30px;
+    padding:20px 30px;
+    animation-name: animacion1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:2;
+    animation-direction: normal;
+    animation-fill-mode:both;
+    animation-delay: 5s;
+}
+
+
+@Keyframes animacion1{
+    0%{
+        padding:20px 30px;
+        background-color: rgb(255, 251, 0);
+    }25%{
+        padding: 200px 200px;
+        background-color: rgb(36, 153, 16);
+    }50%{
+        background-color: rgb(251, 0, 255);
+        padding: 10px 7px;
+    }75%{
+        padding: 100px 70px;
+        background-color: rgb(51, 100, 234);
+        color: violet;  
+    }100%{
+        padding: 50px 40px;
+        background-color: rgb(206, 40, 40);
+    }
+
+}
+@Keyframes animacion2{
+    0%{
+        padding:20px 30px;
+        background-color: rgb(255, 251, 0);
+    }25%{
+        padding: 200px 200px;
+        background-color: rgb(36, 153, 16);
+    }50%{
+        background-color: rgb(251, 0, 255);
+        padding: 10px 7px;
+    }75%{
+        padding: 100px 70px;
+        background-color: rgb(51, 100, 234);
+        color: violet;  
+    }100%{
+        padding: 50px 40px;
+        background-color: rgb(206, 40, 40);
+    }
+
+}
+
+
+
+/* Cubicbezier */

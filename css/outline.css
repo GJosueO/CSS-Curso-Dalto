@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+div{
+    display: block;
+    height:100px;
+    width: 100px;
+    background-color:yellow;
+    
+}
+.out2{
+    
+    outline: 10px solid blue;
+    
+}
+.out1{
+    border: 10px solid red;
+}
+

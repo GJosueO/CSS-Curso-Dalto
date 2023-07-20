@@ -1,0 +1,15 @@
+
+/* red green blue ::shadow */
+/* Baldes de pintura */
+.caja:first-child{
+    
+    background-color:rgba(250, 255, 100,.5);
+    height: 100px;
+    width: 100%;
+}
+.caja:nth-child(2){
+    
+    height: 100px;
+    width: 100%;
+    background-color:rgb(211, 229, 143);
+}

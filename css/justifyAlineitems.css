@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(34, 85, 87)
+}
+.container_items{
+    height: 100px;
+    width: 110px;
+    background-color:blue;
+    
+}
+.green{
+    background-color: green;
+}
+.grey{
+    background-color: black;
+}
+.container_dos_items{
+    height: 100px;
+    width: 110px;
+    background-color:blue;
+    margin:5px;
+    min-width:120px;
+    text-align: center;
+}
+.yellow{
+    background-color: rgb(122, 185, 44);
+}
+.rojo{
+    background-color: rgb(125, 19, 19);
+}
+
+
+
+.container{
+    height: 709px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    align-content: flex-start;
+    
+    
+}
+
+
+
+
+/* aling-content ##################################################3 */
+.container_dos{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap-reverse;
+    justify-content:space-evenly;
+    align-content: baseline;
+}

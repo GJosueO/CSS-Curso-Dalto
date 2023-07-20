@@ -1,0 +1,32 @@
+.container{
+    background-color: black;
+    height: 800px;
+    width: 800px;
+    
+    
+}
+.tab{
+    height: 200px;
+    width: 200px;
+    display: inline;
+    background-color: aquamarine;
+    
+}
+input{
+    height: 100px;
+    width: 200px;
+    font-size: 4em;
+}
+input::placeholder{
+    background-color: yellow;
+    box-sizing:;
+    height: 300px;
+    width: 350px;
+    color: aquamarine;
+}
+
+input::selection{
+    background-color: blueviolet;
+    color: white;
+    
+}

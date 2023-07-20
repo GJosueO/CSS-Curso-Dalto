@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+
+}
+body{
+    background-color: rgb(234, 252, 252);
+    
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 252, 252);
+    padding: 30px 0px;
+    border-bottom: 1px solid rgba(140, 231, 219, 0.192);
+}
+span{
+    color: rgb(190, 28, 28);
+    margin: 0px 20px;
+    font-size: 45px;
+    font-weight: bold;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li:hover{
+    background-color: rgb(196, 242, 242);
+    padding: 20px;
+    
+}
+li{
+    padding: 20px;
+    
+}
+
+.container ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    height: auto;
+    width: auto;
+    border-bottom: 1px solid rgba(140, 231, 219, 0.192);
+    background-color: rgba(140, 231, 219, 0.192);
+}
+.container__medicamentos{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content:flex-end;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    width: 50;
+    
+    
+    
+}
+.caja{
+    height: 35rem;
+    width: 20rem;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius:10px;
+    border: 1px solid rgba(212, 210, 210, 0.498) ;
+    -webkit-box-shadow: 8px -9px 9px -4px rgba(163,161,163,1);
+    -moz-box-shadow: 8px -9px 9px -4px rgba(163,161,163,1);
+    box-shadow: 8px -9px 9px -4px rgba(163,161,163,1);
+    transition:transform .4s;
+    -webkit-transition:transform .4s;
+    -moz-transition:transform .4s;
+    -ms-transition:transform .4s;
+    -o-transition:transform .4s;
+}
+.contenido{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    padding: 15px 0;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: rgba(186, 238, 249, 0.105);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.inputs__image{
+    height:500px;
+    width: 500px;
+    
+
+    
+    
+}
+
+
+
+img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 10px;
+}
+h3{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.331);
+    text-transform: uppercase;
+}
+p{
+    
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+p:hover{
+    background-color: rgba(0, 255, 255, 0.055);
+    
+}
+.items__inputs{
+    
+    margin: 23px 10px;
+    
+    
+    
+}
+.container__medicamentos{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.caja:hover{
+    background-color: rgba(215, 239, 248, 0.893);
+    transform: scale(1.2,1.3);
+    -webkit-transform: scale(1.2,1.3);
+    -moz-transform: scale(1.2,1.3);
+    -ms-transform: scale(1.2,1.3);
+    -o-transform: scale(1.2,1.3);
+}
+
+

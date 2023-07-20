@@ -1,0 +1,27 @@
+
+
+
+/* resolucion de imagenes */
+/* object-fit: 
+    - contain resolucion real de la caja /  debe tener la imagien el 100% de altura y anchura
+    - Cover cubre la caja con todo su tamaño / por lo regular se visualiza una parte de la imagen 
+    -none le da el tamaño real de la imagen 
+    -scale.doown se ajusta a la mejor o menor propiedad
+    */
+
+
+    /* object-position:
+    left;
+    right;
+    buttom;
+    top;
+
+    se puede añadir una medida: 15px; */
+.marco img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+

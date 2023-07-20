@@ -1,0 +1,38 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+    body{
+        background-color: #000c18;
+    }
+    img{
+        color: #0058cc;
+    }
+    .btn{
+    
+    font-family: Playfair Display SC;
+    font-weight: 100;
+    font-size: 20px;
+    color: #00fafa;
+    background: linear-gradient(156deg, #0099cc 0%, #c500cc 100%);
+    padding: 12px 45px;
+    border: none;
+    box-shadow: rgb(252, 252, 252) 3px 19px 40px -9px;
+    border-radius: 50px 0px;
+    transition : 679ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    cursor: pointer;
+    text-transform: lowercase;
+    }
+    
+    .btn:hover{
+    
+    transition : 679ms;
+    padding: 10px 0px;
+    transform : translateY(-0px);
+    background: linear-gradient(156deg, #0099cc 0%, #c500cc 100%);
+    color: #ffffff;
+    border: none;
+    }
+    

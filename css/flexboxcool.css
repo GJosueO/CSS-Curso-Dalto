@@ -1,0 +1,137 @@
+body{
+    background-color:aliceblue;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+p{
+    margin: 6px  0 ;
+    text-align: justify;
+}
+h1{
+    color: blueviolet;
+    
+}
+
+.info__ingresar{
+    background-color: rgba(130, 26, 227, 0.799); 
+    
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: block;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: aliceblue;
+    margin-top: 25px;
+}
+.info__ingresar:hover{
+    background:radial-gradient(circle, rgb(151, 71, 161), rgb(206, 131, 228),rgb(255, 255, 255));
+   
+}
+
+
+.container{
+    
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    
+    flex-wrap:wrap;
+    background-color: aliceblue;
+    justify-content: center;
+
+}
+.container__items{
+    height: 100%;
+    width: 300px;
+    min-width: 300px;
+    padding:10px 15px;
+    margin:  35px;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 10px 10px 1px rgba(161,161,161,0.67);
+    -moz-box-shadow: 5px 10px 10px 1px rgba(161,161,161,0.67);
+    box-shadow: 5px 10px 10px 1px rgba(161,161,161,0.67);
+    border:1px solid rgba(215, 215, 215, 0.779);
+
+
+    /* display flex */
+    
+
+ 
+}
+.item__img{
+    height: 70%;
+    object-fit: cover;
+    outline:3px solid rgba(228, 228, 228, 0.507);
+}
+.item__info{
+    height: 25%;
+    margin-top:5px;
+    display: inline-block;
+    
+    
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        height: 200px;
+        width: 100%;
+        min-width: 600;
+        display:flex;
+        text-align: left;
+        flex-wrap:wrap;
+        background-color: aliceblue;
+        justify-content: space-evenly;
+        
+    }
+   
+    .container__items{
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+    }
+    .item__img{
+        height: 100%;
+        width: 55%;
+        object-fit: cover;
+        outline:3px solid rgba(228, 228, 228, 0.507);
+    }
+    .item__info{
+        height: 100%;
+        width: 60%;
+        margin-top:5px;
+        display: inline-block;
+        padding: 0px 15px;
+        
+        
+    
+    }
+    .info__ingresar{
+        margin: 0;
+    }
+}
+
+
+
+
+

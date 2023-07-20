@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+/* div{
+    display: block;
+    height:150px;
+    width: 200px;
+    margin: auto;
+    
+    
+} * */
+/* .cajas{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+.diferente{
+    background-color: aquamarine;
+    position:absolute;
+    top: 0;
+    left: 0; 
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    z-index: 1;
+}
+.dos{
+    position: relative;
+    background-color: blue ;
+    bottom: 30px;
+    left: -20px;
+
+
+} */
+/* ======================== */
+/* Position relative; */
+/* ======================== */
+/* Position relative: Adopta 5 caracteristicas nuevas (top'tiene mas importancia', button, rigth 'tiene mas importancia', left, z-index)
+Su fucncion es mover la caja a un cierto punto, dejando consigo el espacio que generalmente tenia.
+
+
+Z-index: funciona poniendolo en su caja, pero para ver mas cambios las cajas de arriba y abajo deben tener el position absolute y consigo el Z-index
+El proposito de Z-index es posisionar la caja primero que las de abajo (el lugar de position absolute se conserva) */
+
+/* ====================================================================================================================================================== */
+/* .caja_uno{
+    background-color: rgb(113, 52, 52);
+    
+}
+.caja_dos{
+    background-color: rgba(0, 255, 213, 1) ;
+    position: relative;
+    top: 200px;
+    right: 60px;
+    z-index: 1;
+}
+.caja_tres{
+    position: relative;
+    top: 65px;
+    left: 100px;
+    z-index: 10;
+    
+    background-color: rgba(197, 197, 31, 0.788);
+}
+.caja_cuatro{
+    background-color: rgba(222, 0, 255, 1);
+    position: relative;
+    z-index: 5;
+}
+.caja_cinco{
+    background-color: rgba(77, 255, 104, 0.701);
+}
+ */
+
+/* ===================================================================================================================================================================================== */
+
+/* Position absolute: Una diferencia particular es
+ que no guarda el espacio que tienen las cajas, 
+ el contenido se amontonara; El uso de esta propiedad puede
+ cambiar de cierto modo el DOM del las etiquetas HTML 
+ Utilizamos top rigth left bottom con valor 0 para moverlos.
+ 
+ */
+/* 
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    margin: 100px;
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+    
+}
+div div{
+    display: inline-block;
+    position:absolute;
+    height:150px;
+    width: 200px;
+    
+    
+    
+    
+}
+.caja_uno{
+    background-color: rgb(113, 52, 52);
+    bottom: 0;
+    right: 0;
+    
+    z-index: -1;
+    
+
+}
+.caja_dos{
+    background-color: rgba(0, 255, 213, 1) ;
+    top: 0;
+    right: 0;
+    
+    z-index: -1;
+
+}
+.caja_tres{
+    background-color: rgba(197, 197, 31, 0.788);
+    bottom: 0;
+    
+    z-index: -1;
+}
+.caja_cuatro{
+    background-color: rgba(222, 0, 255, 1);
+    top: 0;
+    z-index: -1;
+    margin-bottom: -100px;
+}
+.caja_cinco{
+    background-color: rgba(77, 255, 104, 0.701);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto ;
+   
+    
+} */
+
+/* 
+Position fixed se comporta como block pero se queda fijo como mensaje de alerta.
+la posicion de la informacion baja, como el absolute */
+
+/* body{
+    margin-top:80px;
+    
+} 
+    padding:0;
+    margin: 0;
+}
+.fixed{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    color: aliceblue;
+    margin-top: -80px;
+} */
+/* position sticky: Combinacion de absolute y fixed */
+/* 
+*{
+    color: aliceblue;
+}
+
+
+.fixed{
+    position:fixed;
+    height: 200px;
+    background-color: transparent;
+    top: 200px;
+} */

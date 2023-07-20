@@ -1,0 +1,57 @@
+body{
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(90, 31, 95);
+    display: flex;
+    
+}
+.container_dos{
+    
+    height: 100vh;
+    background-color: rgb(31, 78, 95);
+    display: flex;
+    
+   
+}
+.container_items{
+    height: 60px;
+    width: 100px;
+    background-color: blue;
+    
+    
+}
+.container_dos_items{
+    height: 100px;
+    min-width: 170px;
+    background-color: blue;
+    flex-grow: 1;
+    width: 200px;
+}
+.green{
+    background-color: green;
+    align-self: flex-end;
+}
+.rojo{
+    background-color: red;
+    
+}
+.yellow{
+    background-color: yellow;
+    flex-shrink: 3;
+}
+.grey{
+    background-color: grey;
+    align-self: center ;
+    margin: auto;
+
+    
+    
+    
+}

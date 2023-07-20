@@ -1,0 +1,21 @@
+body{
+    
+  display: flex;
+  place-items: start;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+    
+    
+}
+h1{
+    background-color: rgb(37, 46, 143);
+    border-radius: 20px;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
